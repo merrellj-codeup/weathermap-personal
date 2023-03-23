@@ -231,6 +231,7 @@ class Forecast {
 
     let html = `
             <article>
+                <img src="images/arnold2.webp" alt="Arnold" class="arnold">
                 <h2>${'Arnold\'s Forecast'/*this.getWeatherCondition(this.current)*/}</h2>
                 <p>${this.summary}</p>
             </article>
@@ -293,9 +294,9 @@ class Forecast {
                     </div>
                 </div>
             </article>
-            <article class="curr-temp-chart">
+            ${`<!--<article class="curr-temp-chart">
                 Temp Chart
-            </article>
+            </article>-->`}
         `;
     parent.innerHTML = html;
     document.querySelector('.page-wrapper').classList.remove('search');

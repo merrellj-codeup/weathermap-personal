@@ -160,6 +160,9 @@ h2 {
     padding: 0 50px;
     transition: all ease .3s;
 }
+.arnold {
+    border-radius: 7px;
+}
 .search .current-forecast-pane {
     left: 100%;
 }
@@ -458,7 +461,7 @@ img.openweather-logo {
     border-radius: 99px !important;
 }
 .canvas-space {
-    height: 160px;
+    height: 0px;
 }
 
 .chart-wrapper {
