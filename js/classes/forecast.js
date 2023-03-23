@@ -231,7 +231,7 @@ class Forecast {
 
     let html = `
             <article>
-                <img src="images/arnold2.webp" alt="Arnold" class="arnold">
+                ${`<!--<img src="images/arnold2.webp" alt="Arnold" class="arnold">-->`}
                 <h2>${'Arnold\'s Forecast'/*this.getWeatherCondition(this.current)*/}</h2>
                 <p>${this.summary}</p>
             </article>
